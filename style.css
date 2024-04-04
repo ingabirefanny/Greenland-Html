@@ -1,0 +1,351 @@
+
+form{
+    padding: 90px;
+    font-size: larger;
+    color: rgb(106, 99, 99);
+    background-color: white;
+}
+
+.welcome{
+
+    background-color: rgb(90, 164, 90);
+    color: white;
+    height: 80px;
+    display: flex;
+    font-size: x-large;
+    padding-left: 50px;
+
+}
+.usd{
+    display: flex;
+    margin-left: 50%;
+    gap: 80px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    }
+    .navbar li {
+        display: inline-block;
+     margin-top: 20px;
+              }
+header{
+    display: flex;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:black;
+    padding-left: 80px;
+}
+.summer{
+background-image: url(photos/g.png );
+width: 600px;
+height: 600px;
+text-align: center;
+background-color: rgb(246, 242, 237);
+resize: horizontal;
+background-repeat: no-repeat;
+}
+
+.words{
+background-color: antiquewhite;
+height: 50%;
+
+}
+
+.plants{
+    display: flex;
+    background-color:rgb(229,229,229);
+    width: 500px;
+    height: 270px;
+}
+.sec{
+    display: flex;
+    background-color:rgb(229,229,229);
+    width: 500px;
+    height: 270px;
+
+}
+.first{
+    height: 300px;
+}
+.all{
+display: flex;
+gap: 60px;
+width: 80%;
+}
+.sale{
+    display: flex;
+    background-color: rgb(244,242,243);
+    width: 400px;
+    height: 300px;
+    
+}
+.house{
+    display: flex;
+    background-color: rgb(244,242,243);
+}
+.pot{
+    display: flex;
+    background-color: white;
+}
+.all2{
+    display: flex;
+    gap: 50px;
+}
+.new{
+    display: flex;
+gap: 100px;
+margin-left: 550px;
+font-size: xx-large;
+}
+.pink{
+    display: flex;
+}
+.pink2{
+    display: flex;
+}
+.popcorn{
+    display: flex;
+    color: grey;
+}
+.butt{
+margin-left: 34%;
+width: 200px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+
+}
+.product{
+    text-align: center;
+}
+.bottle{
+    display: flex;
+    gap: 80px;
+    font-size: x-large;
+}
+.spring{
+    margin-top: 0%;
+}
+.butt2{
+    margin-left: 10;
+width: 200px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+}
+
+   .shop{
+    background-image: url(photos/leaf.png);
+height: 390px;
+text-align: center;
+padding: 50px;
+}
+
+.press{
+    width: 120px;
+background-color: green;
+color: white;
+height: 50px;
+border-radius: 15px;
+}
+.glass{
+    display: flex;
+}
+.glass2{
+    display: flex;
+}
+.glass3{
+    display: flex;
+}
+.flex{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+.vasee{
+    display: flex;
+}
+.test{
+    margin-left: 40%;
+}
+.people{
+    display: flex;
+    margin-left: 280px;
+    gap: 200px;
+}
+.range{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap: 10%;
+    margin-left: 15%;
+}
+.sub{
+    width: 390px;
+    background-color: green;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+}
+.mail{
+    width: 390px;
+    background-color:white;
+    color:gray;
+    height: 50px;
+    border-radius: 5px;
+}
+.chris{
+    text-align: center;
+    font-size: small;
+
+}
+
+
+@media screen and (min-width:280px) and (max-width:980px){
+    body{
+        form{
+overflow: hidden;        }
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .mail{
+            width: 390px;
+            background-color:white;
+            color:gray;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+
+        .glass{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .glass2{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .glass3{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .flex{
+            display: flex;
+            gap: 50px;
+            padding: 100px;
+            flex-wrap: wrap;
+
+        }
+        .vasee{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .people{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .people{
+            display: flex;
+            margin-left: 280px;
+            gap: 200px;
+            flex-wrap: wrap;
+        }
+        
+        .welcome{
+
+            color: white;
+            height: 80px;
+            display: flex;
+            font-size: x-large;
+            padding-left: 50px;
+        
+        }
+        .usd{
+            display: flex;
+            margin-left: 50%;
+            gap: 80px;
+        }
+        .navbar ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 50px;
+            }
+            .navbar li {
+                display: inline-block;
+             margin-top: 20px;
+                      }
+        header{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color:black;
+            padding-left: 80px;
+        }
+        .all{
+            display: flex;
+            gap: 60px;
+            flex-wrap: wrap;
+            }
+            .sale{
+                display: flex;
+                background-color: rgb(244,242,243);
+                flex-wrap: wrap;
+                
+            }
+            .house{
+                display: flex;
+                background-color: rgb(244,242,243);
+                flex-wrap: wrap;
+            }
+            .pot{
+                display: flex;
+                background-color: white;
+                flex-wrap: wrap;
+            }
+            .all2{
+                display: flex;
+                gap: 50px;
+                flex-wrap: wrap;
+            }
+            .new{
+                display: flex;
+            gap: 100px;
+            margin-left: 570px;
+            font-size: x-large;
+            }
+            .pink{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .pink2{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .popcorn{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .summer{
+                width: 70%;
+                height: 400px;
+                text-align: center;
+                }
+                #lamp{
+                    width: 100px;
+                }
+
+    }}
